@@ -4,7 +4,7 @@
    class FolderNmae(folderNmae: FolderNmae)
    def folderName(f:Int)={}
 
-  def givenFolder(d:String,l:List[Int]) = d match {
+  def givenFolder(d:String) = d match {
     case "Home/ScalaTest/1"=> givenFolder(println(d))
 
   }
